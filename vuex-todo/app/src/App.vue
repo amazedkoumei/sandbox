@@ -1,13 +1,31 @@
 <template>
-  <div id="app">
-    <img src="./assets/logo.png">
-    <router-view/>
+  <div>
+    <form @submit.prevent='addTodo'>
+      <input class='todo-input' type='text' placeholder='Enter a new Task' v-model='task' />
+    </form>
+    <todo-list />
   </div>
 </template>
 
 <script>
+import store from './store'
+import TodoList from './components/TodoList.vue'
+
 export default {
-  name: 'App'
+  name: 'App',
+  components: { TodoList },
+  data: () => ({
+    task: '',
+    newId: 3
+  }),
+  methods: {
+    addTodo: function () {
+      this.$store.dispatch('addTodo', this)
+      this.newId++
+      this.task = ''
+    }
+  },
+  store: store
 }
 </script>
 
