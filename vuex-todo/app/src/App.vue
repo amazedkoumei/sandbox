@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="app">
     <form @submit.prevent='addTodo'>
       <input class='todo-input' type='text' placeholder='Enter a new Task' v-model='task' />
     </form>
@@ -30,12 +30,14 @@ export default {
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+.todo-input {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  outline: none;
+  border-radius: 0.25rem;
+  border-style: none;
+  border: solid 1px lightgray;
+  box-sizing: border-box;
 }
 </style>

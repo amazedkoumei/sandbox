@@ -26,3 +26,22 @@ export default {
   }
 }
 </script>
+
+<style>
+.tasks {
+  padding-left: 1.5rem;
+}
+
+.task {
+  margin-bottom: 0.5rem;
+}
+
+.task:hover {
+  cursor: pointer;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #555;
+}
+</style>
