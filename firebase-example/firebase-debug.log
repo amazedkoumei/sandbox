@@ -1,0 +1,32 @@
+[debug] [2018-02-13T07:36:24.860Z] ----------------------------------------------------------------------
+[debug] [2018-02-13T07:36:24.862Z] Command:       /usr/local/Cellar/node/9.5.0/bin/node /usr/local/bin/firebase serve
+[debug] [2018-02-13T07:36:24.862Z] CLI Version:   3.17.4
+[debug] [2018-02-13T07:36:24.862Z] Platform:      darwin
+[debug] [2018-02-13T07:36:24.862Z] Node Version:  v9.5.0
+[debug] [2018-02-13T07:36:24.862Z] Time:          Tue Feb 13 2018 16:36:24 GMT+0900 (JST)
+[debug] [2018-02-13T07:36:24.862Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-02-13T07:36:24.873Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-02-13T07:36:24.873Z] > authorizing via signed-in user
+[debug] [2018-02-13T07:36:24.874Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/fir-example-a519d  
+  
+ Tue Feb 13 2018 16:36:24 GMT+0900 (JST)
+[debug] [2018-02-13T07:36:25.677Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-13T07:36:25.678Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/fir-example-a519d/tokens  
+  
+ Tue Feb 13 2018 16:36:25 GMT+0900 (JST)
+[debug] [2018-02-13T07:36:26.427Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/takeoyamaji/src/sandbox/firebase-example'...
+[info] 
+[debug] [2018-02-13T07:36:26.430Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/fir-example-a519d  
+  
+ Tue Feb 13 2018 16:36:26 GMT+0900 (JST)
+[debug] [2018-02-13T07:36:27.384Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-13T07:36:27.384Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/973117411973/clients/_:getWebAppConfig  
+  
+ Tue Feb 13 2018 16:36:27 GMT+0900 (JST)
+[debug] [2018-02-13T07:36:28.223Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+
